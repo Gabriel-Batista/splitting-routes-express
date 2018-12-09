@@ -1,4 +1,4 @@
-const app = require("express")();
+const app = require("express")(); //Why must we invoke it?
 const routes = require("./routes");
 
 app.use("/", routes);
